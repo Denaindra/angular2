@@ -1,0 +1,13 @@
+<h1>String intopolation</h1>
+<p>
+    {{stringInterporlation}}|{{numberInterporlation}}
+</p>
+<hr>
+<h1>Property Binding</h1>
+<input type="text" [value]=stringInterporlation>
+<p [ngClass]="{redBorder: Ontest()}">Is this is style </p>
+<h3>Custom Property Binding</h3>
+<fa-property-binding [result]="10"></fa-property-binding>
+<hr>
+<h1>Event Binding</h1>
+<fa-event-binding (clicked)="onclick($event)"></fa-event-binding>
