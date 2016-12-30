@@ -11,7 +11,7 @@ import { EventBindingComponent } from './event-binding-componet';
 })
 
 export class DatabindingComponet {
-  stringInterporlation = "this is a string triporlation ";
+  stringInterporlation = "this is a string triporlation Sample .";
   numberInterporlation = 2;
 
   onclick(value: string) {
